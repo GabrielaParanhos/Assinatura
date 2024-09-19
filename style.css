@@ -5,31 +5,35 @@
     --cor-fundo: rgb(236, 113, 133);
 
 }
-body{
-    background-color:var(--cor-fundo) ;
-
+body {
+    background-color: var(--cor-fundo);
+    color: var(--cor-principal);
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
 }
-.principal{
+
+.principal {
     background-image: url("Background.png");
     background-repeat: no-repeat;
     background-size: contain;
     grid-template-columns: 50% 50%;
-
 }
-container {
+
+.container {
     height: 100vh;
 }
-.container__botao{
+
+.container__botao {
     background-color: var(--botao-azul);
     border-radius: 5px;
     padding: 1em;
-    color: var(--cor-principal);
+    color: white;
     display: block;
 }
+
 .container__botao2{
     background-color: transparent;
     border: 2px solid  white;
